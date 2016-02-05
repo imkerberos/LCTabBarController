@@ -1,5 +1,24 @@
 //
 //  LCTabBarController.h
+//  LCTabBarController
+//
+//  Created by Kerberos Zhang on 16/2/5.
+//  Copyright © 2016年 Leo. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for LCTabBarController.
+FOUNDATION_EXPORT double LCTabBarControllerVersionNumber;
+
+//! Project version string for LCTabBarController.
+FOUNDATION_EXPORT const unsigned char LCTabBarControllerVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <LCTabBarController/PublicHeader.h>
+
+
+//
+//  LCTabBarController.h
 //  LCTabBarControllerDemo
 //
 //  Created by Leo on 15/12/2.

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8FA3931C644AA70012A9C6 /* LCTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8FA3921C644AA70012A9C6 /* LCTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F8FA3981C644AB90012A9C6 /* LCTabBarCONST.h in Sources */ = {isa = PBXBuildFile; fileRef = B34B561F1C0ECA99006DA598 /* LCTabBarCONST.h */; };
+		3F8FA3991C644AB90012A9C6 /* LCTabBarController.h in Sources */ = {isa = PBXBuildFile; fileRef = B34B56221C0EF707006DA598 /* LCTabBarController.h */; };
+		3F8FA39A1C644AB90012A9C6 /* LCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34B56231C0EF707006DA598 /* LCTabBarController.m */; };
+		3F8FA39B1C644AB90012A9C6 /* LCTabBar.h in Sources */ = {isa = PBXBuildFile; fileRef = B34B56251C0EF786006DA598 /* LCTabBar.h */; };
+		3F8FA39C1C644AB90012A9C6 /* LCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B34B56261C0EF786006DA598 /* LCTabBar.m */; };
+		3F8FA39D1C644AB90012A9C6 /* LCTabBarItem.h in Sources */ = {isa = PBXBuildFile; fileRef = B34B56281C0EF7C2006DA598 /* LCTabBarItem.h */; };
+		3F8FA39E1C644AB90012A9C6 /* LCTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B34B56291C0EF7C2006DA598 /* LCTabBarItem.m */; };
+		3F8FA39F1C644AB90012A9C6 /* LCTabBarBadge.h in Sources */ = {isa = PBXBuildFile; fileRef = B34B562B1C0EF7E4006DA598 /* LCTabBarBadge.h */; };
+		3F8FA3A01C644AB90012A9C6 /* LCTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = B34B562C1C0EF7E4006DA598 /* LCTabBarBadge.m */; };
 		B32570A71C0EAD0200B820A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32570A61C0EAD0200B820A6 /* main.m */; };
 		B32570AA1C0EAD0200B820A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32570A91C0EAD0200B820A6 /* AppDelegate.m */; };
 		B32570B21C0EAD0200B820A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32570B11C0EAD0200B820A6 /* Assets.xcassets */; };
@@ -22,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F8FA3901C644AA70012A9C6 /* LCTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8FA3921C644AA70012A9C6 /* LCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTabBarController.h; sourceTree = "<group>"; };
+		3F8FA3941C644AA70012A9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B32570A21C0EAD0200B820A6 /* LCTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32570A61C0EAD0200B820A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B32570A81C0EAD0200B820A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F8FA38C1C644AA70012A9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B325709F1C0EAD0200B820A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8FA3911C644AA70012A9C6 /* LCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FA3921C644AA70012A9C6 /* LCTabBarController.h */,
+				3F8FA3941C644AA70012A9C6 /* Info.plist */,
+			);
+			path = LCTabBarController;
+			sourceTree = "<group>";
+		};
 		B32570991C0EAD0200B820A6 = {
 			isa = PBXGroup;
 			children = (
 				B34B561B1C0ECA4D006DA598 /* LCTabBarController */,
 				B32570A41C0EAD0200B820A6 /* LCTabBarControllerDemo */,
+				3F8FA3911C644AA70012A9C6 /* LCTabBarController */,
 				B32570A31C0EAD0200B820A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B32570A21C0EAD0200B820A6 /* LCTabBarControllerDemo.app */,
+				3F8FA3901C644AA70012A9C6 /* LCTabBarController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +152,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3F8FA38D1C644AA70012A9C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8FA3931C644AA70012A9C6 /* LCTabBarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		3F8FA38F1C644AA70012A9C6 /* LCTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8FA3971C644AA70012A9C6 /* Build configuration list for PBXNativeTarget "LCTabBarController" */;
+			buildPhases = (
+				3F8FA38B1C644AA70012A9C6 /* Sources */,
+				3F8FA38C1C644AA70012A9C6 /* Frameworks */,
+				3F8FA38D1C644AA70012A9C6 /* Headers */,
+				3F8FA38E1C644AA70012A9C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCTabBarController;
+			productName = LCTabBarController;
+			productReference = 3F8FA3901C644AA70012A9C6 /* LCTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B32570A11C0EAD0200B820A6 /* LCTabBarControllerDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32570B91C0EAD0200B820A6 /* Build configuration list for PBXNativeTarget "LCTabBarControllerDemo" */;
@@ -148,6 +208,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Leo;
 				TargetAttributes = {
+					3F8FA38F1C644AA70012A9C6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					B32570A11C0EAD0200B820A6 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -167,11 +230,19 @@
 			projectRoot = "";
 			targets = (
 				B32570A11C0EAD0200B820A6 /* LCTabBarControllerDemo */,
+				3F8FA38F1C644AA70012A9C6 /* LCTabBarController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F8FA38E1C644AA70012A9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B32570A01C0EAD0200B820A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +256,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F8FA38B1C644AA70012A9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8FA3981C644AB90012A9C6 /* LCTabBarCONST.h in Sources */,
+				3F8FA3991C644AB90012A9C6 /* LCTabBarController.h in Sources */,
+				3F8FA39A1C644AB90012A9C6 /* LCTabBarController.m in Sources */,
+				3F8FA39B1C644AB90012A9C6 /* LCTabBar.h in Sources */,
+				3F8FA39C1C644AB90012A9C6 /* LCTabBar.m in Sources */,
+				3F8FA39D1C644AB90012A9C6 /* LCTabBarItem.h in Sources */,
+				3F8FA39E1C644AB90012A9C6 /* LCTabBarItem.m in Sources */,
+				3F8FA39F1C644AB90012A9C6 /* LCTabBarBadge.h in Sources */,
+				3F8FA3A01C644AB90012A9C6 /* LCTabBarBadge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B325709E1C0EAD0200B820A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,6 +291,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3F8FA3951C644AA70012A9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LCTabBarController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.behaiku.LCTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F8FA3961C644AA70012A9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LCTabBarController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.behaiku.LCTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B32570B71C0EAD0200B820A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -313,6 +440,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F8FA3971C644AA70012A9C6 /* Build configuration list for PBXNativeTarget "LCTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8FA3951C644AA70012A9C6 /* Debug */,
+				3F8FA3961C644AA70012A9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B325709D1C0EAD0200B820A6 /* Build configuration list for PBXProject "LCTabBarControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
